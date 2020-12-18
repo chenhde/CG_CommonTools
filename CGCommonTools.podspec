@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "CGCommonTools"
-spec.version      = "1.0.4"
+spec.version      = "1.0.5"
 spec.summary      = "一键封装开发基础工具类"
 spec.description  = <<-DESC
                     封装一些开发基础工具类，如base基类，常用类别以及网络请求封装
@@ -30,6 +30,18 @@ spec.requires_arc = true
 
 spec.source_files  ="CGCommonTools","CGCommonTools/*.{h,m}"
 
+spec.subspec 'Base' do |bas|
+
+bas.source_files = "CGCommonTools/Base/*.{h,m}"
+
+
+end
+#spec.subspec 'Categories' do |cat|
+
+#cat.source_files = "CGCommonTools/Categories/**/*.{h,m}"
+
+
+#end
 
 
 
