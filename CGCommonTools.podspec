@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "CGCommonTools"
-spec.version      = "1.0.0"
+spec.version      = "1.0.3"
 spec.summary      = "一键封装开发基础工具类"
 spec.description  = <<-DESC
                     封装一些开发基础工具类，如base基类，常用类别以及网络请求封装
