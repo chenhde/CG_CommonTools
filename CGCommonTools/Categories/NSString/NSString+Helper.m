@@ -28,7 +28,7 @@
 
 -(BOOL)isEmpty:(NSString*)text{
    
-    return [self isNullOrEmpty:text];
+    return [NSString isNullOrEmpty:text];
 }
 
 - (NSString *)cleanSpace

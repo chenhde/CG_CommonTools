@@ -36,12 +36,12 @@ bas.source_files = "CGCommonTools/Base/*.{h,m}"
 
 
 end
-#spec.subspec 'Categories' do |cat|
+spec.subspec 'Categories' do |cat|
 
-#cat.source_files = "CGCommonTools/Categories/**/*.{h,m}"
+cat.source_files = "CGCommonTools/Categories/**/*.{h,m}"
 
 
-#end
+end
 
 
 
