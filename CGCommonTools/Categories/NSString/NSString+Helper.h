@@ -19,9 +19,6 @@
  */
 + (BOOL)isNullOrEmpty:(NSString *)string;
 
-
--(BOOL)isEmpty:(NSString*)text;
-
 /**
  *  清除空格
  */

@@ -16,20 +16,7 @@
 
 @implementation NSString (Helper)
 
-+ (BOOL)isNullOrEmpty:(NSString *)string
-{
-    return string == nil
-    || [string isEqual: (id)[NSNull null]]
-    || [string isKindOfClass:[NSString class]] == NO
-    || [@"" isEqualToString:string]
-    || [[string stringByReplacingOccurrencesOfString:@" " withString:@""] length] == 0U
-    || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0U;
-}
 
--(BOOL)isEmpty:(NSString*)text{
-   
-    return [NSString isNullOrEmpty:text];
-}
 
 - (NSString *)cleanSpace
 {
