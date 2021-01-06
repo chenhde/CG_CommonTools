@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "CGCommonTools"
-spec.version      = "1.1.0"
+spec.version      = "2.0.1"
 spec.summary      = "一键封装开发基础工具类"
 spec.description  = <<-DESC
                     封装一些开发基础工具类，如base基类，常用类别以及网络请求封装
@@ -28,7 +28,7 @@ spec.ios.deployment_target = "10.0"
 spec.ios.frameworks = 'Foundation', 'UIKit'
 spec.requires_arc = true
 
-spec.source_files  ="CGCommonTools","CGCommonTools/*.{h,m,mm}"
+spec.source_files  ="CGCommonTools","CGCommonTools/*.{h,m}"
 
 spec.subspec 'Base' do |bas|
 
